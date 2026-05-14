@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Sasha Beauty Salon",
+    "category": "Beauty & Spa",
+    "address": "Shop 1, Al Tallal Building, Al Barsha 1, Dubai, UAE",
+    "phone": "+971 4 347 3001",
+    "email": "sashabeautysalon@gmail.com",
+    "rating": "4.6",
+    "reviews": 320,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 10:00 PM"
+    },
+    "specialties": ["Moroccan Bath", "Hair Keratin", "Gelish Nails", "Facial Threading"],
+    "review_quotes": [
+      "The Moroccan bath here is the best in Al Barsha. So rejuvenating!",
+      "Experienced staff and very clean environment. My go-to for hair treatments.",
+      "Excellent value for money. The hair keratin treatment lasted for months."
+    ],
+    "owner_name": "Sasha",
+    "hook": "Al Barsha's heritage beauty destination. Known for authentic Moroccan baths and expert hair transformations since 2005."
+  },
+  {
+    "id": 2,
+    "name": "Keo Ladies Beauty Salon",
+    "category": "Beauty & Spa",
+    "address": "193 Jumeirah Street, Jumeirah 1, Dubai, UAE",
+    "phone": "+971 4 328 2443",
+    "email": "keoladiessalon@gmail.com",
+    "rating": "4.9",
+    "reviews": 255,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 9:00 PM"
+    },
+    "specialties": ["Precision Haircuts", "Balayage", "Medical Pedicure"],
+    "review_quotes": [
+      "Absolute pro for hair coloring. Keo understands exactly what you want.",
+      "A 5-star experience without the 5-star price tag. Best salon in Jumeirah.",
+      "Clean, professional, and very friendly. The medical pedicure is a must-try."
+    ],
+    "owner_name": "Keo",
+    "hook": "Jumeirah's top-rated sanctuary for precision hair styling and luxury foot care. Boasting a near-perfect 4.9-star reputation."
+  },
+  {
+    "id": 3,
+    "name": "Anotha Beauty Salon",
+    "category": "Beauty & Spa",
+    "address": "Shop 2, Umm Suqeim 2, Jumeirah 3, Dubai, UAE",
+    "phone": "+971 50 687 5574",
+    "email": "anothabeautysalon@gmail.com",
+    "rating": "4.8",
+    "reviews": 84,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 9:30 PM"
+    },
+    "specialties": ["Nail Art", "Eyelash Extensions", "Massage Therapy"],
+    "review_quotes": [
+      "The most creative nail art I've seen in Dubai. Truly artistic.",
+      "Very relaxing massage and the atmosphere is so peaceful.",
+      "High quality eyelash extensions that look very natural."
+    ],
+    "owner_name": "N/A",
+    "hook": "Boutique beauty in Jumeirah 3. Specialists in artistic nail design and high-end eyelash extensions."
+  },
+  {
+    "id": 4,
+    "name": "Rival Ladies Beauty Salon",
+    "category": "Beauty & Spa",
+    "address": "Villa #1, Al Bahwan Complex, Umm Suqeim 1, Dubai, UAE",
+    "phone": "+971 4 394 0000",
+    "email": "rival.salon.jumeirah@gmail.com",
+    "rating": "4.8",
+    "reviews": 118,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 10:00 PM"
+    },
+    "specialties": ["Henna Design", "Hair Botox", "Luxury Facials"],
+    "review_quotes": [
+      "Stunning henna designs. The artist is very fast and precise.",
+      "Their hair botox treatment completely fixed my frizz. Amazing result.",
+      "Beautiful villa setting. It feels very private and exclusive."
+    ],
+    "owner_name": "N/A",
+    "hook": "Exclusive villa-based beauty lounge in Umm Suqeim. Famous for intricate henna and life-changing hair botox."
+  },
+  {
+    "id": 5,
+    "name": "Feel Pink Salon",
+    "category": "Beauty & Spa",
+    "address": "Al Barsha 1, Dubai, UAE",
+    "phone": "+971 55 231 8391",
+    "email": "feelpinksalon@gmail.com",
+    "rating": "4.7",
+    "reviews": 180,
+    "hours": {
+      "Mon-Sun": "9:00 AM - 11:00 PM"
+    },
+    "specialties": ["Home Service Beauty", "Paraffin Pedicure", "Body Scrub"],
+    "review_quotes": [
+      "Convenient home service and they bring everything. Very professional.",
+      "The paraffin pedicure is so hydrating. My feet feel like silk.",
+      "Prompt and skilled staff. Best home beauty service in Barsha."
+    ],
+    "owner_name": "N/A",
+    "hook": "Al Barsha's premier home-service beauty expert. Bringing the luxury spa experience directly to your doorstep."
+  },
+  {
+    "id": 6,
+    "name": "Kaizo Beauty Salon",
+    "category": "Beauty & Spa",
+    "address": "Al Khoory Building, Al Barsha 1, Dubai, UAE",
+    "phone": "+971 4 340 8380",
+    "email": "kaizobeauty4@gmail.com",
+    "rating": "4.8",
+    "reviews": 160,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 10:00 PM"
+    },
+    "specialties": ["Nail Extensions", "Bridal Makeup", "Cavitation"],
+    "review_quotes": [
+      "Best place for nail extensions. They last so long and look perfect.",
+      "Professional bridal makeup that lasted all night. Highly recommend.",
+      "Staff are very knowledgeable about skin care and cavitation treatments."
+    ],
+    "owner_name": "N/A",
+    "hook": "16+ years of excellence in Al Barsha. A high-end destination for bridal beauty and advanced body contouring."
+  },
+  {
+    "id": 7,
+    "name": "East Elegance Salon",
+    "category": "Beauty & Spa",
+    "address": "Al Barsha 1, Dubai, UAE",
+    "phone": "+971 4 340 0404",
+    "email": "eastelegance@gmail.com",
+    "rating": "4.4",
+    "reviews": 95,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 10:00 PM"
+    },
+    "specialties": ["Eyebrow Tinting", "Vibrant Coloring", "Custom Facials"],
+    "review_quotes": [
+      "The expert stylists here really know their colors. My hair looks vibrant.",
+      "Great facials customized for my skin type. Very relaxing.",
+      "My eyebrows look perfect every time. Very consistent service."
+    ],
+    "owner_name": "N/A",
+    "hook": "Modern elegance meets expert technique. Specialized in vibrant hair transformations and personalized skin care."
+  },
+  {
+    "id": 8,
+    "name": "Ashwina Hair & Beauty",
+    "category": "Beauty & Spa",
+    "address": "Al Barsha South Mall, Dubai, UAE",
+    "phone": "+971 58 599 2752",
+    "email": "ashwinasalon@gmail.com",
+    "rating": "4.3",
+    "reviews": 70,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 10:00 PM"
+    },
+    "specialties": ["Moroccan Bath", "Nashi Treatment", "Hair Straightening"],
+    "review_quotes": [
+      "Wonderful Moroccan bath. Very thorough and relaxing.",
+      "The Nashi treatment made my hair so soft and healthy.",
+      "Efficient service and very friendly team in Al Barsha South."
+    ],
+    "owner_name": "N/A",
+    "hook": "Traditional relaxation in Al Barsha South. Known for expert Moroccan baths and premium Nashi hair rituals."
+  },
+  {
+    "id": 9,
+    "name": "Signature Spa Marina",
+    "category": "Beauty & Spa",
+    "address": "Marina Walk, Dubai Marina, UAE",
+    "phone": "+971 4 440 2805",
+    "email": "signaturedubaimarina@gmail.com",
+    "rating": "4.7",
+    "reviews": 140,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 12:00 AM"
+    },
+    "specialties": ["6-Hands Massage", "Prenatal Massage", "Body Polishing"],
+    "review_quotes": [
+      "The 6-hands massage is a unique experience. Pure relaxation.",
+      "Safe and expert prenatal massage. Exactly what I needed.",
+      "Spotless facilities and a very professional atmosphere."
+    ],
+    "owner_name": "N/A",
+    "hook": "Dubai Marina's premier wellness retreat. Offering specialized therapeutic massages and luxury body polishing."
+  },
+  {
+    "id": 10,
+    "name": "Al Shehana Medical Spa",
+    "category": "Beauty & Spa",
+    "address": "Building 73, Dubai Healthcare City, UAE",
+    "phone": "+971 4 423 3832",
+    "email": "info@a4bbh.com",
+    "rating": "5.0",
+    "reviews": 30,
+    "hours": {
+      "Sat-Thu": "9:00 AM - 7:00 PM"
+    },
+    "specialties": ["Facial Rejuvenation", "Anti-Aging", "Hydrafacial"],
+    "review_quotes": [
+      "Expert medical-grade facials. My skin has never looked better.",
+      "Professional doctors and very modern technology.",
+      "A trusted clinic for rejuvenation treatments."
+    ],
+    "owner_name": "N/A",
+    "hook": "Clinical excellence meets aesthetic beauty. Dubai Healthcare City's trusted address for facial rejuvenation."
+  }
+]

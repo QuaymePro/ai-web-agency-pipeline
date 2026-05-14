@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaizo Beauty Salon | Premium Beauty & Spa Dubai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #d4af37;
+            --secondary: #ffffff;
+            --accent: #2d3436;
+            --text: #2d3436;
+            --glass: rgba(255, 255, 255, 0.95);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text);
+            line-height: 1.8;
+            overflow-x: hidden;
+            background-color: var(--secondary);
+        }
+
+        h1, h2, h3 {
+            font-family: 'Cormorant Garamond', serif;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        /* Luxury Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1540555700478-4be289fbecee?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            padding: 0 20px;
+        }
+
+        .hero-content {
+            max-width: 1000px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero p.pre-title {
+            font-size: 1rem;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .hero h1 {
+            font-size: 6rem;
+            margin-bottom: 20px;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+
+        .hero p.tagline {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 20px 60px;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 0;
+            font-weight: 600;
+            font-size: 0.8rem;
+            letter-spacing: 4px;
+            transition: all 0.5s;
+            border: 1px solid var(--primary);
+        }
+
+        .cta-button:hover {
+            background-color: transparent;
+            color: white;
+            border-color: white;
+            backdrop-filter: blur(5px);
+        }
+
+        /* Sections */
+        section {
+            padding: 140px 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        .section-header h2 {
+            font-size: 4rem;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .section-header p {
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+            align-items: center;
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .about-image img {
+            width: 100%;
+            display: block;
+            filter: sepia(20%);
+        }
+
+        .about-image::after {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            right: -40px;
+            bottom: -40px;
+            border: 2px solid var(--primary);
+            z-index: -1;
+        }
+
+        .about-text {
+            padding: 40px;
+        }
+
+        .about-text h3 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: var(--accent);
+        }
+
+        /* Specialties */
+        .specialties-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2px;
+            background: #eee;
+        }
+
+        .specialty-item {
+            background: white;
+            padding: 80px 40px;
+            text-align: center;
+            transition: all 0.5s;
+        }
+
+        .specialty-item:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .specialty-item h3 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Testimonials */
+        .testimonial-container {
+            background: #111;
+            color: white;
+            padding: 140px 20px;
+            text-align: center;
+        }
+
+        .testimonial-card {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card p {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.5rem;
+            line-height: 1.3;
+            margin-bottom: 40px;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .testimonial-card .author {
+            font-size: 0.9rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Location */
+        .location-section {
+            background: #fafafa;
+        }
+
+        .location-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .info-card {
+            padding: 60px;
+            background: white;
+            box-shadow: 0 40px 100px rgba(0,0,0,0.03);
+        }
+
+        .info-card h3 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        .info-card p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 100px 20px;
+            background: #000;
+            color: white;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-size: 3.5rem;
+            margin-bottom: 40px;
+            color: var(--primary);
+        }
+
+        .social-links {
+            margin-bottom: 50px;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--primary);
+        }
+
+        .copyright {
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.4;
+        }
+
+        /* Mobile */
+        @media (max-width: 1024px) {
+            .hero h1 { font-size: 4rem; }
+            .about-grid, .location-grid { grid-template-columns: 1fr; }
+            section { padding: 100px 20px; }
+            .section-header h2 { font-size: 3rem; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <p class="pre-title">The Art of Wellbeing in Dubai</p>
+            <h1>Kaizo Beauty Salon</h1>
+            <p class="tagline">"Where Luxury Meets Serenity"</p>
+            <a href="mailto:kaizobeauty4@gmail.com" class="cta-button">REQUEST A RESERVATION</a>
+        </div>
+    </header>
+
+    <section id="discovery">
+        <div class="section-header">
+            <p>A LEGACY OF ELEGANCE</p>
+            <h2>The Experience</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecee?auto=format&fit=crop&w=1920&q=80" alt="Dubai Spa Luxury">
+            </div>
+            <div class="about-text">
+                <h3>Our Sanctuary</h3>
+                <p>Welcome to <strong>Kaizo Beauty Salon</strong>, a refined escape situated in the heart of Dubai. We have dedicated ourselves to the pursuit of absolute beauty and profound relaxation, crafting an environment that speaks of sophistication and tranquility.</p>
+                <br>
+                <p>Located at Al Khoory Building, Al Barsha 1, Dubai, UAE, we invite you to step away from the city's vibrant energy and enter a realm designed for rejuvenation. Whether you are seeking our signature Nail Extensions or a complete transformative ritual, our master therapists are here to guide your journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="offerings" style="padding-bottom: 0;">
+        <div class="section-header">
+            <p>BESPOKE RITUALS</p>
+            <h2>Our Specialties</h2>
+        </div>
+        <div class="specialties-grid">
+            
+                <div class="specialty-item">
+                    <h3>Nail Extensions</h3>
+                    <p>Experience the finest nail extensions in Dubai, tailored specifically to your individual needs and desires.</p>
+                </div>
+            
+                <div class="specialty-item">
+                    <h3>Bridal Makeup</h3>
+                    <p>Experience the finest bridal makeup in Dubai, tailored specifically to your individual needs and desires.</p>
+                </div>
+            
+                <div class="specialty-item">
+                    <h3>Cavitation</h3>
+                    <p>Experience the finest cavitation in Dubai, tailored specifically to your individual needs and desires.</p>
+                </div>
+            
+        </div>
+    </section>
+
+    <div class="testimonial-container">
+        <div class="testimonial-card">
+            <p>"Best place for nail extensions. They last so long and look perfect."</p>
+            <div class="author">★ 5.0 — DISCERNING CLIENT</div>
+        </div>
+    </div>
+
+    <section class="location-section">
+        <div class="location-grid">
+            <div class="info-card">
+                <h3>Find Us</h3>
+                <p><strong>Address:</strong><br>Al Khoory Building, Al Barsha 1, Dubai, UAE</p>
+                <p><strong>Phone:</strong><br><a href="tel:971 4 340 8380" style="color: inherit; text-decoration: none;">+971 4 340 8380</a></p>
+                <p><strong>Email:</strong><br><a href="mailto:kaizobeauty4@gmail.com" style="color: var(--primary); text-decoration: none;">kaizobeauty4@gmail.com</a></p>
+            </div>
+            <div class="info-card">
+                <h3>Inquiries</h3>
+                <p><strong>Hours of Operation:</strong></p>
+                <p>Mon-Sun: 10:00 AM - 10:00 PM</p>
+                <br>
+                <p style="font-style: italic; color: #888;">Reservations are recommended to ensure availability for your preferred rituals.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">Kaizo Beauty Salon</div>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">WhatsApp</a>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Kaizo Beauty Salon Dubai. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
+  
