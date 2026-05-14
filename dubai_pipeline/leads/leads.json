@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Saigon Charming Beauty Salon",
+    "category": "Beauty Salon",
+    "address": "Elite Business Center, 2nd Floor, Al Barsha 1, Dubai, UAE",
+    "phone": "+971 4 395 1234",
+    "email": "saigoncharming@gmail.com",
+    "rating": "4.8",
+    "reviews": 150,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 10:00 PM"
+    },
+    "specialties": ["Vietnamese Hair Care", "Nail Art", "Facial Treatments"],
+    "review_quotes": [
+      "The best Vietnamese hair wash in Dubai! So relaxing.",
+      "Professional staff and very clean salon. Highly recommend for nails.",
+      "Saigon Charming truly lives up to its name. A hidden gem in Al Barsha."
+    ],
+    "owner_name": "N/A",
+    "hook": "Expert Vietnamese beauty techniques in the heart of Al Barsha. Known for relaxing hair washes and precision nail art."
+  },
+  {
+    "id": 2,
+    "name": "Lady Star Beauty Salon",
+    "category": "Beauty Salon",
+    "address": "409 Rania Business Center, Al Barsha 1, Dubai, UAE",
+    "phone": "+971 4 399 0000",
+    "email": "ladystarbeeutysalon@gmail.com",
+    "rating": "4.5",
+    "reviews": 85,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 9:00 PM"
+    },
+    "specialties": ["Ladies Only", "Threading", "Henna Design", "Hair Styling"],
+    "review_quotes": [
+      "The threading service is quick and perfect every time.",
+      "Amazing henna designs for weddings and special occasions.",
+      "Very friendly atmosphere and reasonable prices."
+    ],
+    "owner_name": "N/A",
+    "hook": "A dedicated ladies-only sanctuary known for traditional henna and expert threading services."
+  },
+  {
+    "id": 3,
+    "name": "Al Barsha Therapy Center",
+    "category": "Wellness & Therapy",
+    "address": "22nd St, Al Barsha 1, Dubai, UAE",
+    "phone": "+971 50 436 3188",
+    "email": "albarshacenter@gmail.com",
+    "rating": "4.5",
+    "reviews": 110,
+    "hours": {
+      "Sat-Thu": "9:00 AM - 8:00 PM"
+    },
+    "specialties": ["Physical Therapy", "Osteopathy", "Chiropractic Care"],
+    "review_quotes": [
+      "Recovered from my back pain thanks to their amazing therapists.",
+      "Very professional and knowledgeable. They explain everything clearly.",
+      "The best chiropractic care I've received in Dubai."
+    ],
+    "owner_name": "N/A",
+    "hook": "Holistic recovery and wellness specialists. Your neighborhood destination for pain management and physical health."
+  },
+  {
+    "id": 4,
+    "name": "Wellheal Wellness Clinic",
+    "category": "Beauty & Spa",
+    "address": "Al Barsha 3, Dubai, UAE",
+    "phone": "+971 4 355 4449",
+    "email": "connect@bwell-clinics.com",
+    "rating": "5.0",
+    "reviews": 150,
+    "hours": {
+      "Mon-Sat": "10:00 AM - 9:00 PM"
+    },
+    "specialties": ["Therapeutic Massage", "Nutritional Guidance", "Holistic Wellness"],
+    "review_quotes": [
+      "Pure bliss! The therapeutic massage is exactly what I needed.",
+      "A truly holistic approach to health. Five stars for everything.",
+      "The atmosphere is so peaceful and the staff are incredibly skilled."
+    ],
+    "owner_name": "N/A",
+    "hook": "A 5-star rated holistic wellness haven. Combining ancient wisdom with modern therapeutic techniques."
+  },
+  {
+    "id": 5,
+    "name": "SG Auto Repair",
+    "category": "Auto Repair",
+    "address": "Grey Square, Showroom 2, Umm Suqeim Road, Al Barsha 2, Dubai, UAE",
+    "phone": "+971 56 877 8354",
+    "email": "sgautorepair45@gmail.com",
+    "rating": "4.2",
+    "reviews": 60,
+    "hours": {
+      "Sat-Thu": "8:30 AM - 7:00 PM"
+    },
+    "specialties": ["General Maintenance", "Engine Diagnostics", "AC Repair"],
+    "review_quotes": [
+      "Honest mechanics and very fast service. Fixed my AC perfectly.",
+      "Fair pricing and they don't suggest unnecessary repairs.",
+      "Reliable garage in Al Barsha. My car runs like new."
+    ],
+    "owner_name": "N/A",
+    "hook": "Precision auto care on Umm Suqeim Road. Reliable, honest, and expert mechanical services for all makes."
+  },
+  {
+    "id": 6,
+    "name": "Urban Hub Pet Grooming",
+    "category": "Pet Care",
+    "address": "Diamond Business Centre 1, Al Barsha South, Dubai, UAE",
+    "phone": "+971 50 344 8567",
+    "email": "urbanhubpet@gmail.com",
+    "rating": "4.7",
+    "reviews": 222,
+    "hours": {
+      "Mon-Sun": "9:00 AM - 8:00 PM"
+    },
+    "specialties": ["Pet Grooming", "Boarding", "Pet Supplies"],
+    "review_quotes": [
+      "My dog loves it here! They are so gentle and the grooming is top-notch.",
+      "Cleanest boarding facility I've seen in Dubai. Highly trust them.",
+      "The grooming team is amazing with even the most nervous pets."
+    ],
+    "owner_name": "N/A",
+    "hook": "The ultimate destination for your furry friends. High-standard grooming and boarding with 200+ five-star reviews."
+  },
+  {
+    "id": 7,
+    "name": "Gromo Pets",
+    "category": "Pet Care",
+    "address": "Al Sufouh 2, Adjacent to Al Barsha, Dubai, UAE",
+    "phone": "+971 54 344 8567",
+    "email": "info@gromopets.com",
+    "rating": "4.8",
+    "reviews": 25,
+    "hours": {
+      "Mon-Sun": "10:00 AM - 7:00 PM"
+    },
+    "specialties": ["Mobile Grooming", "In-Store Grooming", "Dental Care"],
+    "review_quotes": [
+      "Excellent service and very professional groomers. My cat looks great.",
+      "They really take their time and ensure the pet is comfortable.",
+      "High quality products and great attention to detail."
+    ],
+    "owner_name": "N/A",
+    "hook": "Professional pet care focused on gentle handling and high-quality grooming products."
+  },
+  {
+    "id": 8,
+    "name": "Al Barsha Star Auto General Repairing",
+    "category": "Auto Repair",
+    "address": "Al Quoz Industrial Area 2 (Serves Al Barsha), Dubai, UAE",
+    "phone": "+971 52 288 1144",
+    "email": "albarsha.agr@gmail.com",
+    "rating": "3.6",
+    "reviews": 178,
+    "hours": {
+      "Sat-Thu": "8:00 AM - 8:00 PM"
+    },
+    "specialties": ["General Repair", "Body Shop", "Electrical Work"],
+    "review_quotes": [
+      "Good service for general repairs. They were able to fix a complex electrical issue.",
+      "Large garage with lots of capacity. Prices are competitive.",
+      "Been taking my car here for years for the annual service."
+    ],
+    "owner_name": "N/A",
+    "hook": "High-capacity general repair specialist serving Al Barsha with a focus on value and technical expertise."
+  },
+  {
+    "id": 9,
+    "name": "Houston Medical Clinic",
+    "category": "Health",
+    "address": "Elite Business Center, Al Barsha 1, Dubai, UAE",
+    "phone": "+971 4 385 0603",
+    "email": "operations.houstonclinic@gmail.com",
+    "rating": "4.6",
+    "reviews": 75,
+    "hours": {
+      "Sat-Thu": "9:00 AM - 9:00 PM"
+    },
+    "specialties": ["Dermatology", "Dental", "General Practice"],
+    "review_quotes": [
+      "The dentists are very skilled and the clinic is very modern.",
+      "Great experience with the dermatology department. Very helpful staff.",
+      "A trusted neighborhood clinic with a personal touch."
+    ],
+    "owner_name": "N/A",
+    "hook": "Modern multi-specialty healthcare in Al Barsha 1. Trusted for dermatology and advanced dental care."
+  },
+  {
+    "id": 10,
+    "name": "Ayur Care Ayurvedic Wellness",
+    "category": "Beauty & Spa",
+    "address": "Al Barsha 3, Dubai, UAE",
+    "phone": "+971 4 280 9417",
+    "email": "ayurcare@emirates.net.ae",
+    "rating": "4.1",
+    "reviews": 40,
+    "hours": {
+      "Mon-Sun": "8:00 AM - 10:00 PM"
+    },
+    "specialties": ["Ayurvedic Massage", "Traditional Healing", "Detox"],
+    "review_quotes": [
+      "Authentic Ayurvedic treatments. I felt rejuvenated after the session.",
+      "Very traditional and effective methods for stress relief.",
+      "Excellent practitioners who really understand the ancient techniques."
+    ],
+    "owner_name": "N/A",
+    "hook": "Authentic Ayurvedic healing in Dubai. Rebalance your body and mind with traditional Indian wellness."
+  }
+]

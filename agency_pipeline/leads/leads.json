@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "name": "Rae's Restaurant",
+    "category": "Classic American Diner",
+    "address": "2901 Pico Blvd, Santa Monica, CA 90405",
+    "phone": "(310) 828-7937",
+    "rating": "4.5",
+    "reviews": 1200,
+    "hours": {
+      "Mon-Sun": "7:00 AM - 9:00 PM"
+    },
+    "specialties": ["Hobo Breakfast", "Buttermilk Pancakes", "Burgers", "Classic Shakes"],
+    "review_quotes": [
+      "Stepping into Rae's is like stepping back into the 1950s. The Googie architecture is preserved perfectly.",
+      "Best breakfast in Santa Monica. The Hobo Breakfast is a massive amount of food for a great price.",
+      "Cash only! Don't forget. But the pancakes are worth every penny."
+    ],
+    "owner_name": "Family Owned",
+    "hook": "Legendary 1950s Googie diner featured in movies like True Romance. Cash-only staple with massive local loyalty."
+  },
+  {
+    "id": 2,
+    "name": "Donut King",
+    "category": "Donut Shop & Bakery",
+    "address": "1912 Lincoln Blvd, Santa Monica, CA 90404",
+    "phone": "(310) 394-4848",
+    "rating": "4.6",
+    "reviews": 350,
+    "hours": {
+      "Mon-Sun": "24 Hours"
+    },
+    "specialties": ["Old Fashioned Donuts", "Bagel Sandwiches", "Boba Tea"],
+    "review_quotes": [
+      "Open 24 hours and the donuts are always fresh. My go-to spot after a late night.",
+      "The bagel sandwiches are surprisingly good and very affordable for Santa Monica.",
+      "Friendly family-run business that has been here for decades."
+    ],
+    "owner_name": "N/A",
+    "hook": "30-year family-owned 24-hour staple. Known for fresh donuts and affordable sandwiches near Samohi."
+  },
+  {
+    "id": 3,
+    "name": "Lazy Daisy Cafe",
+    "category": "Breakfast & Brunch",
+    "address": "2300 Pico Blvd, Santa Monica, CA 90405",
+    "phone": "(310) 392-4161",
+    "rating": "4.4",
+    "reviews": 450,
+    "hours": {
+      "Mon-Fri": "7:00 AM - 3:00 PM",
+      "Sat-Sun": "8:00 AM - 4:00 PM"
+    },
+    "specialties": ["Breakfast Burrito", "Orange Julius", "Outdoor Seating", "Fresh Salads"],
+    "review_quotes": [
+      "The breakfast burrito is huge and delicious. Perfect spot for a weekend brunch.",
+      "Lovely outdoor patio. It's so colorful and relaxing.",
+      "Their version of an Orange Julius is a must-try. So refreshing!"
+    ],
+    "owner_name": "N/A",
+    "hook": "Quaint, colorful neighborhood favorite with a beautiful outdoor patio. Famous for their breakfast burritos."
+  },
+  {
+    "id": 4,
+    "name": "Don's Cutting Edge",
+    "category": "Barbershop",
+    "address": "2917 Pico Blvd, Santa Monica, CA 90405",
+    "phone": "(310) 450-4416",
+    "rating": "4.7",
+    "reviews": 160,
+    "hours": {
+      "Tue-Sat": "9:00 AM - 6:00 PM"
+    },
+    "specialties": ["Traditional Cuts", "Fair Pricing", "Local Vibe"],
+    "review_quotes": [
+      "Don is a pro. Consistent, fast, and the price is unbeatable for the quality.",
+      "No-frills barbershop where you get a great cut every single time.",
+      "Been coming here for years. Best barber on Pico."
+    ],
+    "owner_name": "Don",
+    "hook": "Highly consistent, fair-priced local favorite on Pico. Known for precision and a welcoming, no-frills vibe."
+  },
+  {
+    "id": 5,
+    "name": "Cuttin' Up! Barbershop III",
+    "category": "Barbershop",
+    "address": "1802 Broadway, Santa Monica, CA 90404",
+    "phone": "(310) 315-1801",
+    "rating": "4.3",
+    "reviews": 110,
+    "hours": {
+      "Tue-Sat": "10:00 AM - 7:00 PM"
+    },
+    "specialties": ["Fades", "Tapers", "Community Atmosphere"],
+    "review_quotes": [
+      "Great community vibe. The barbers are friendly and really know what they're doing.",
+      "History on Broadway! This place has been around forever for a reason.",
+      "Always a good conversation and a great fade."
+    ],
+    "owner_name": "Family Owned",
+    "hook": "A Santa Monica staple since 1942. Deep community roots and a reputation for friendly service and great cuts."
+  },
+  {
+    "id": 6,
+    "name": "Santa Monica Radiator",
+    "category": "Auto Repair",
+    "address": "1537 Lincoln Blvd, Santa Monica, CA 90401",
+    "phone": "(310) 395-2196",
+    "rating": "4.8",
+    "reviews": 90,
+    "hours": {
+      "Mon-Fri": "8:00 AM - 5:00 PM"
+    },
+    "specialties": ["Cooling Systems", "Radiator Repair", "General Maintenance"],
+    "review_quotes": [
+      "They've been in business for 85 years and it shows. Absolute pros.",
+      "Honest, fair, and fast. They fixed my overheating issue in no time.",
+      "Old-school integrity. You don't find shops like this anymore."
+    ],
+    "owner_name": "N/A",
+    "hook": "85+ years of local history. The gold standard for cooling systems and honest, old-school mechanical work."
+  },
+  {
+    "id": 7,
+    "name": "European One Auto Repair",
+    "category": "Auto Repair",
+    "address": "2700 Lincoln Blvd, Ste 6, Santa Monica, CA 90405",
+    "phone": "(310) 467-4394",
+    "rating": "4.9",
+    "reviews": 120,
+    "hours": {
+      "Mon-Fri": "8:30 AM - 5:30 PM"
+    },
+    "specialties": ["Audi", "BMW", "Mercedes", "Specialized European Care"],
+    "review_quotes": [
+      "Edwin is the best. He knows European cars better than the dealership and is half the price.",
+      "Finally found an honest mechanic for my BMW. Highly recommend.",
+      "Professional, knowledgeable, and always fair with the estimates."
+    ],
+    "owner_name": "Edwin",
+    "hook": "Specialized European car care with dealer-quality work at independent prices. Known for Edwin's expertise."
+  },
+  {
+    "id": 8,
+    "name": "J Motors",
+    "category": "Auto Repair",
+    "address": "3202 Lincoln Blvd, Santa Monica, CA 90405",
+    "phone": "(310) 399-7699",
+    "rating": "4.9",
+    "reviews": 85,
+    "hours": {
+      "Mon-Fri": "8:00 AM - 6:00 PM"
+    },
+    "specialties": ["Brakes", "Suspension", "General Mechanical"],
+    "review_quotes": [
+      "They are so methodical and never try to sell you something you don't need.",
+      "Great shop. I trust them with all my car needs.",
+      "Very clean and professional operation. 5 stars."
+    ],
+    "owner_name": "N/A",
+    "hook": "Methodical, transparent, and highly trusted. Boasts a near-perfect rating for avoiding unnecessary upsells."
+  },
+  {
+    "id": 9,
+    "name": "G M C Plumbing, Inc.",
+    "category": "Plumbing",
+    "address": "Santa Monica, CA",
+    "phone": "(310) 742-9197",
+    "rating": "4.9",
+    "reviews": 77,
+    "hours": {
+      "Mon-Sat": "8:00 AM - 6:00 PM"
+    },
+    "specialties": ["Sewer Repair", "Drainage", "Emergency Plumbing"],
+    "review_quotes": [
+      "Geremi was extremely professional and fixed our sewer line faster than expected.",
+      "Responsive and fair pricing. Definitely my new go-to plumber.",
+      "High quality work and they cleaned up perfectly after the job."
+    ],
+    "owner_name": "Geremi",
+    "hook": "Responsive, professional plumbing specialist with a 4.9-star rating. Experts in sewer and drainage work."
+  },
+  {
+    "id": 10,
+    "name": "Burris Brothers Plumbing & Heating",
+    "category": "Plumbing & Heating",
+    "address": "Santa Monica, CA",
+    "phone": "(310) 450-7052",
+    "rating": "5.0",
+    "reviews": 76,
+    "hours": {
+      "Mon-Fri": "8:00 AM - 5:00 PM"
+    },
+    "specialties": ["Water Heaters", "Heating Systems", "Residential Plumbing"],
+    "review_quotes": [
+      "In business since 1990 and it's clear why. Reliable and expert service.",
+      "They replaced our water heater quickly and for a great price.",
+      "The most reliable plumbers in Santa Monica, hands down."
+    ],
+    "owner_name": "N/A",
+    "hook": "Reliable neighborhood staple since 1990 with a perfect 5.0-star reputation for heating and plumbing."
+  }
+]

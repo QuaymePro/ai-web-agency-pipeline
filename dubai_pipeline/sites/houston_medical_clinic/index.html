@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houston Medical Clinic | Premium Health Dubai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #00a8ff;
+            --secondary: #ffffff;
+            --accent: #191970;
+            --text: #2d3436;
+            --glass: rgba(255, 255, 255, 0.9);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text);
+            line-height: 1.7;
+            overflow-x: hidden;
+            background-color: var(--secondary);
+        }
+
+        h1, h2, h3 {
+            font-family: 'Cormorant Garamond', serif;
+            letter-spacing: 1px;
+        }
+
+        /* Premium Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            padding: 0 20px;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        .hero h1 {
+            font-size: 5rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            font-weight: 300;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 18px 50px;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 2px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            transition: all 0.4s;
+            border: 1px solid var(--primary);
+        }
+
+        .cta-button:hover {
+            background-color: transparent;
+            color: white;
+            border-color: white;
+        }
+
+        /* Sections */
+        section {
+            padding: 120px 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .section-header h2 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+
+        .section-header p {
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Glass Cards */
+        .glass-card {
+            background: var(--glass);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(0,0,0,0.05);
+            padding: 60px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.03);
+            border-radius: 4px;
+        }
+
+        /* About Section */
+        .about-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        /* Services */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .service-box {
+            background: white;
+            padding: 50px;
+            text-align: center;
+            border-bottom: 4px solid var(--primary);
+            transition: transform 0.3s;
+        }
+
+        .service-box:hover {
+            transform: translateY(-15px);
+        }
+
+        .service-box h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Testimonials */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            padding: 40px;
+            border-left: 1px solid #eee;
+        }
+
+        .testimonial-card p {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-card .author {
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--primary);
+        }
+
+        /* Contact/Footer */
+        footer {
+            background: #111;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .footer-contact {
+            margin-bottom: 60px;
+        }
+
+        .footer-contact p {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            opacity: 0.7;
+        }
+
+        .footer-bottom {
+            padding-top: 40px;
+            border-top: 1px solid #222;
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.5;
+        }
+
+        /* Mobile */
+        @media (max-width: 900px) {
+            .hero h1 { font-size: 3rem; }
+            .about-container { grid-template-columns: 1fr; }
+            .section-header h2 { font-size: 2.5rem; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(1.05); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <p>ESTABLISHED IN DUBAI</p>
+            <h1>Houston Medical Clinic</h1>
+            <p>Health</p>
+            <a href="mailto:operations.houstonclinic@gmail.com" class="cta-button">BOOK AN APPOINTMENT</a>
+        </div>
+    </header>
+
+    <section id="story">
+        <div class="section-header">
+            <p>UNCOMPROMISING QUALITY</p>
+            <h2>The Tradition</h2>
+        </div>
+        <div class="about-container">
+            <div>
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1920&q=80" alt="Dubai Luxury" style="width: 100%; filter: grayscale(20%);">
+            </div>
+            <div class="glass-card">
+                <p>Located in the vibrant heart of <strong>Al Barsha</strong>, Houston Medical Clinic represents the pinnacle of health services in Dubai.</p>
+                <br>
+                <p>We combine international standards with local hospitality to create an experience that is both sophisticated and deeply personal. Our commitment to excellence is reflected in every detail, from our expert team to the premium products we use.</p>
+                <br>
+                <p>Visit us at Elite Business Center, Al Barsha 1, Dubai, UAE and discover why we are the preferred choice for those who demand nothing but the best.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" style="background: #fafafa;">
+        <div class="section-header">
+            <p>ELITE OFFERINGS</p>
+            <h2>Signature Services</h2>
+        </div>
+        <div class="services-grid">
+            
+                <div class="service-box">
+                    <h3>Dermatology</h3>
+                    <p>Bespoke care tailored to your exact needs, delivered with absolute precision and elegance.</p>
+                </div>
+            
+                <div class="service-box">
+                    <h3>Dental</h3>
+                    <p>Bespoke care tailored to your exact needs, delivered with absolute precision and elegance.</p>
+                </div>
+            
+                <div class="service-box">
+                    <h3>General Practice</h3>
+                    <p>Bespoke care tailored to your exact needs, delivered with absolute precision and elegance.</p>
+                </div>
+            
+        </div>
+    </section>
+
+    <section id="clients">
+        <div class="section-header">
+            <p>CLIENT VOICES</p>
+            <h2>The Experience</h2>
+        </div>
+        <div class="testimonial-grid">
+            
+                <div class="testimonial-card">
+                    <p>"The dentists are very skilled and the clinic is very modern."</p>
+                    <div class="author">★ 5.0 — Verified Client</div>
+                </div>
+            
+                <div class="testimonial-card">
+                    <p>"Great experience with the dermatology department. Very helpful staff."</p>
+                    <div class="author">★ 5.0 — Verified Client</div>
+                </div>
+            
+                <div class="testimonial-card">
+                    <p>"A trusted neighborhood clinic with a personal touch."</p>
+                    <div class="author">★ 5.0 — Verified Client</div>
+                </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">Houston Medical Clinic</div>
+        <div class="footer-contact">
+            <p>Elite Business Center, Al Barsha 1, Dubai, UAE</p>
+            <p><a href="tel:971 4 385 0603" style="color: white; text-decoration: none;">+971 4 385 0603</a></p>
+            <p><a href="mailto:operations.houstonclinic@gmail.com" style="color: var(--primary); text-decoration: none;">operations.houstonclinic@gmail.com</a></p>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Houston Medical Clinic Dubai. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
+  
